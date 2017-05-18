@@ -1,0 +1,514 @@
+a,
+#home-slider .caption h1 span, 
+#footer .footer-bottom, 
+.contact-info ul li a:hover, 
+#footer .footer-bottom a  {
+  color: #b0db43;
+}
+
+a:hover, a:focus {
+  color: #6ea100;
+}
+
+.main-nav, 
+.service-icon, 
+#footer, 
+.caption .btn-to-catalogues:hover, 
+.left-control:hover, 
+.right-control:hover, 
+.folio-overview a:hover {
+  background-color:#9fce27;
+}
+
+.caption .btn-to-catalogues:hover, 
+.left-control:hover, 
+.right-control:hover {
+  border-color: #9fce27;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #666;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.parallax {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.parallax,
+.parallax h1,
+.parallax h2,
+.parallax h3,
+.parallax h4,
+.parallax h5,
+.parallax h6 {
+  color: #fff;
+}
+
+.btn {
+  border: 0;
+  border-radius: 0;
+}
+
+.navbar-nav li a:hover, 
+.navbar-nav li a:focus {
+  outline:none;
+  outline-offset: 0;
+  text-decoration:none;  
+  background: transparent;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+
+a:focus, 
+a:hover {
+  text-decoration: none;
+  outline: none
+}
+
+section {
+  padding: 70px 0;
+}
+
+.heading {
+  padding-bottom:40px;
+}
+
+/*************************
+********Home CSS**********
+**************************/
+#home-slider {
+  overflow: hidden;
+  position: relative;
+}
+
+#home-slider .caption {
+  position: absolute;
+  top: 50%;
+  margin-top: -104px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 15;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+}
+
+#home-slider .caption h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.caption .btn-to-catalogues {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding:14px 40px;
+  border: 1px solid #FFFFFE;
+  border-radius: 6px;
+  margin-top: 40px;
+}
+
+.caption .btn-to-catalogues:hover {
+  color: #fff
+}
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2037px;
+}
+
+.carousel-fade .carousel-inner .item:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,.3);
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+.left-control, .right-control {
+  position: absolute;
+  top: 50%;
+  height: 51px;
+  width: 51px;
+  line-height: 48px;
+  border-radius: 50%;
+  border:1px solid #fff;  
+  z-index: 20;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.left-control {
+  left: -51px
+} 
+
+.right-control {
+  right: -51px;
+}
+
+.left-control:hover, 
+.right-control:hover {
+  color: #fff;
+}
+
+#home-slider:hover .left-control {
+  left:30px
+} 
+
+#home-slider:hover .right-control {
+  right:30px
+}
+
+#home-slider .fa-angle-down {
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  color: #fff;
+  display: inline-block;
+  width: 24px;
+  margin-left: -12px;
+  font-size: 24px;
+  line-height: 24px;
+  z-index: 999;
+  -webkit-animation: bounce 3000ms infinite;
+  animation: bounce 3000ms infinite;
+}
+
+.navbar-right li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar-right li.active a {
+  background-color: rgba(0,0,0,.2);
+}
+.navbar-brand {
+  float: left;
+}
+.navbar-brand a h1 {
+  margin-top: 5px;
+}
+
+.navbar-brand a h1 img {
+  float: left;
+}
+
+.navbar-brand a h1 span {
+  position: relative;
+  font-family: 'Russo One', sans-serif;
+  font-size: 30px;
+  color: #fff;
+  left: 10px;
+}
+
+.navbar-phone {
+  margin-top: 12px;
+  overflow: hidden;
+}
+.navbar-phone ul li,
+.navbar-phone ul li a,
+.navbar-phone ul li span {
+  list-style-type: none;
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.navbar-phone ul li a {
+  display: none;
+}
+
+/*************************
+********Services CSS*******
+**************************/
+
+.service-icon {
+  border-radius: 17px;
+  color: #fff;
+  display: inline-block;
+  height: 140px;
+  line-height: 140px;
+  width: 140px;  
+  -webkit-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.57);
+  box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.57);
+}
+
+.service-icon img {
+  width: 80px;
+  height: 80px;
+}
+
+.service-info h3 {
+  margin-top: 35px;
+}
+
+/*************************
+********About us CSS*******
+**************************/
+#about-us {
+  background-image: url(../images/about-bg.jpg);
+  padding: 60px 0;
+}
+
+#about-us h2 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 28px;
+}
+
+.about-info ul li {
+  color: #9fce27;
+  margin-bottom: 5px;
+}
+
+.about-info ul li span {
+  color: #fff;
+}
+
+
+/*************************
+********Catalogues CSS*****
+**************************/
+
+#catalogues .container-fluid, 
+#catalogues .col-sm-3  {
+  overflow: hidden;
+  padding: 0;
+}
+
+#catalogues .folio-item {
+  position: relative;
+}
+
+#catalogues .overlay {
+  background-color: #000;
+  color: #fff; 
+  left: 0;
+  right:0;
+  bottom:-100%;
+  height: 0;
+  position: absolute;
+  text-align: center;
+  opacity:0;  
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.overlay .overlay-content {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay .overlay-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.overlay .folio-info {
+  opacity: 0;
+  margin-bottom: 75px;
+  margin-top: -75px;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.overlay .folio-info h3 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.folio-overview a {
+  font-size: 40px;
+  color: #333;
+  height: 90px;
+  width: 90px;
+  line-height: 90px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+.folio-overview a:hover {
+  color: #fff;
+}
+
+.folio-image {
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+#catalogues .folio-item:hover .folio-image {
+  -webkit-transform: scale(1.5) rotate(-15deg);
+  transform: scale(1.5) rotate(-15deg);
+}
+
+.folio-image img {
+  width: 100%;
+}
+
+#catalogues .folio-item:hover .overlay {
+  opacity: 0.8;
+  bottom: 0;
+  height: 100%;
+}
+
+#catalogues .folio-item:hover .overlay .folio-info {
+  opacity: 1;  
+  margin-bottom:0;
+  margin-top:0;
+}
+
+/*************************
+**********Contact CSS*****
+**************************/
+
+#contact {
+  padding-top: 45px;
+  padding-bottom: 0;
+}
+
+#google-map {
+  height: 350px;
+}
+
+#contact-us {
+  background-image:url(../images/contact-bg.jpg);
+  padding-bottom: 50px; 
+}
+
+#contact-us .heading {
+  padding-top: 40px;
+}
+
+.contact-info {
+  padding-left:70px;
+  font-weight: 300;
+}
+
+ul.contact-list {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.contact-list li i.fa::before {
+  color: #9fce27;
+}
+
+ul.contact-list li:nth-child(1) a,
+ul.contact-list li:nth-child(2) a {
+  display: none;
+}
+
+.contact-info ul li {
+  margin-bottom: 15px;
+}
+
+.contact-info ul li a {
+  color: #fff;
+}
+
+#footer {
+  color:#fff;
+}
+
+/*************************
+**********Footer CSS******
+**************************/
+
+.footer-top {
+  position: relative;
+  padding:10px 0
+}
+
+#footer .footer-bottom {
+  background-color: #fff;
+  padding: 20px 0 10px;
+}
+
+#footer .footer-bottom p{
+  color: #5f6b43;
+  font-size: 14px;
+}
+
+#footer .footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.footer-logo a img {
+  height: 30px;
+}
